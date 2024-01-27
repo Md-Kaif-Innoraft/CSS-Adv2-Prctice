@@ -15,13 +15,19 @@
 .primary-heading{
     font-size:4rem;
 }
+
 .secondary-heading{
-    font-size: 3rem;
+    font-size: 2.5rem;
+}
+.bold-text{
+    font-weight:900;
+}
+.light-text{
+    color: #ccc;
 }
 
-.bold-text{
-    font-weight:1000;
-}
+
+
 /* Header Section Starts Here */
 
 header {
@@ -151,25 +157,17 @@ nav ul li a:hover {
 
 }
 
-.services-container{
+.services-container, .achievement{
     text-align: center;
     padding: 100px 0;
 }
 
-/* .service-logo{
- padding: 20px;
- background: #373955;
- height: 100px;
- width: 100px;
- border-radius: 50px;
 
-} */
-
-.services-cards{
+.services-cards , .achievement-card{
    /* align-self: center; */
    margin: 70px 0;
 }
-.service-logo{
+.logo-round{
     border-radius: 50px;
     height: 100px;
     width: 100px;
@@ -177,7 +175,7 @@ nav ul li a:hover {
     background-color: #373753;
 
 }
-.service-logo img{
+.logo-round img{
     height: 100px;
     padding: 30px;
    
@@ -189,7 +187,7 @@ nav ul li a:hover {
    
 }
 
-.service-card h2{
+.service-card h2, .achievement-card h2{
     margin: 20px 0;
 }
 
@@ -206,3 +204,226 @@ nav ul li a:hover {
     border: 2px solid white;
 }
 /* <!-- Services Section Ends here --> */
+
+/* Achievement section starts here */
+
+.achievement-wrapper{
+    background: linear-gradient(#13142ccc, #13142ce7), url(images/img-4.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.achievement{
+    color: white;
+}
+
+.achievement-text:hover{
+    color: #D0A904;
+}
+
+/* Achievement section starts here */
+
+/* Pricing Section Starts here */
+
+.pricing-wrapper{
+    background: #F5F4FA;
+}
+.pricing{
+    text-align: center;
+    padding: 100px 0;
+    line-height: 2;
+}
+
+.pricing-cards{
+    margin-top: 30px;
+}
+
+.pricing-cards{
+    gap: 30px;
+}
+.price-card{
+    background: white;
+    padding: 30px;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 5px;
+}
+
+.btn{
+    padding: 15px 45px;
+    border: 2px solid black;
+    color: black;
+    background: transparent;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.btn:hover{
+    background: #D0A904;
+    border: 2px solid #D0A904;
+    color: white;
+}
+/* Pricing Section Ends here */
+
+
+/* Testomonial Section Starts here */
+
+.testomonials-wrapper{
+    background: linear-gradient(#13142ccc, #13142ce7), url(images/img-3.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+
+}
+
+.testomonials{
+    padding: 100px 0;
+    position: relative;
+}
+.testomonials-cards{
+    margin-top: 141px;
+    
+}
+
+.testomonial-card{
+text-align: center;
+
+}
+.testomonial-card img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.testomonial-card p, .testomonial-card h2{
+    margin: 20px;
+}
+.testomonials-button-left{
+    height: 100px;
+    width: 100px;
+    background-color: #3A376C;
+    position: absolute;
+    right: 114px;
+    top: 113px;
+}
+
+.testomonials-button-right{
+    height: 100px;
+    width: 100px;
+    background-color: #D0A904;
+    position: absolute;
+    top: 114px;
+    right: 14px;
+}
+
+
+.testomonials-button-left img{
+    height: 85px;
+    padding: 20px 20px 20px 30px;
+   
+}
+
+.testomonials-button-right img{
+    height: 85px;
+    padding: 20px 20px 20px 30px;
+    position: absolute;
+   
+}
+
+
+/* Testomonial Section Ends here */
+
+
+/* Blog Section Starts here  */
+
+.blog-wrapper{
+    background: #F5F4FA;
+}
+.blog{
+    padding: 100px 0;
+}
+.blog-card{
+    width: 365px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+   
+    /* gap: 20px; */
+}
+
+.blog-card-image img{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.blog-card-content{
+    padding: 30px;
+}
+
+
+/* Blog Section Ends here  */
+
+/* Footer Section Starts here */
+
+footer{
+    background: #3A376C;
+    color: white;
+}
+
+.footer{
+    padding-bottom: 100px;
+    border-bottom: 0.5px solid #ccc;
+}
+
+
+.footer-links-container{
+    margin-top: 80px;
+    line-height: 2;
+}
+
+.links h2{
+    margin-bottom: 20px;
+}
+.links ul li{
+    list-style: none;
+}
+
+.links ul li a{
+    text-decoration: none;
+    color: rgb(207, 205, 205);
+}
+.newsletter{
+    position: relative;
+}
+
+.newsletter input{
+    width: 100%;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 0 10px 30px;
+}
+
+.newsletter-btn img{
+    height: 31px;
+    padding: 8px 0 0 10px;
+}
+.newsletter-btn{
+    height: 50px;
+    width: 50px;
+    background: #D0A904;
+    position: absolute;
+    top: 68px;
+    right: -1px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.footer-down{
+    text-align: center;
+    padding: 20px 0;
+    color: rgb(207, 205, 205);
+}
+
+/* Footer Section Ends here */
