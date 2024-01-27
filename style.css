@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight:  lighter;
+
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.primary-heading{
+    font-size:4rem;
+}
+.secondary-heading{
+    font-size: 3rem;
+}
+
+.bold-text{
+    font-weight:1000;
+}
+/* Header Section Starts Here */
+
+header {
+    background-color: #FBFAFF;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+}
+.navbar-logo img{
+    height: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #111231;
+    padding: 30px 20px;
+
+}
+
+nav ul li a:hover {
+    background: #f0f0f3;
+}
+
+/* HEader Section Ends Here */
+
+/* Banner SEction Starts Here */
+
+.banner-wrapper {
+    background: linear-gradient(#13142ccc, #13142ce7), url(images/img-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    position: relative;
+}
+
+.banner-content {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    color: white;
+    text-align: center;
+}
+
+.banner-content p{
+    margin: 20px 0;
+}
+
+.banner-btn{
+    padding: 15px 45px;
+    border-radius: 30px;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    margin: 20px 20px 200px 0;
+}
+
+.banner-btn:hover{
+    background: #D0A904;
+    border: 2px solid #D0A904;
+}
+
+/*  Banner Ends Here */
+
+/* Hello world section starts here */
+
+.hello-world-wrapper{
+    background: #FBFAFF;
+}
+
+.hello-world{
+    padding: 100px 0;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.hello-world-left-para{
+    margin: 50px 0;
+}
+
+.hello-world-left-list img{
+   height: 40px;
+}
+.hello-world-left-list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 25px 0;
+}
+
+.hello-world-right{
+    /* width: 50%; */
+}
+.hello-world-right img{
+    width: 100%;
+}
+
+/* Hello-World Section Ends Here  */
+
+/* <!-- Services Section Starts here --> */
+
+.services-wrapper{
+    background: linear-gradient(#13142ccc, #13142ce7), url(images/img-2.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+
+}
+
+.services-container{
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* .service-logo{
+ padding: 20px;
+ background: #373955;
+ height: 100px;
+ width: 100px;
+ border-radius: 50px;
+
+} */
+
+.services-cards{
+   /* align-self: center; */
+   margin: 70px 0;
+}
+.service-logo{
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    background-color: #373753;
+
+}
+.service-logo img{
+    height: 100px;
+    padding: 30px;
+   
+
+}
+.service-card{
+    padding: 20px;
+    
+   
+}
+
+.service-card h2{
+    margin: 20px 0;
+}
+
+.services-btn{
+    padding: 15px 45px;
+    color: white;
+    background: #D0A904;
+    border: 2px solid #D0A904;
+    border-radius: 50px;
+}
+
+.services-btn:hover{
+    background: transparent;
+    border: 2px solid white;
+}
+/* <!-- Services Section Ends here --> */
