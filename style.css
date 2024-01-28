@@ -205,10 +205,101 @@ nav ul li a:hover {
 }
 /* <!-- Services Section Ends here --> */
 
+/* Design section starts here */
+.design-wrapper{
+    background: #F5F4FA;
+}
+
+.design{
+    padding: 100px  0;
+    line-height: 1.5;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.grid-item1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.grid-item7{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+ 
+.design p{
+    margin: 30px 0 100px 0;
+}
+
+.design ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+.design ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 20px 30px;
+}
+
+.design ul li a:hover{
+    background: #F0EFF5;
+}
+
+.grid-item{
+    position: relative;
+}
+
+
+.hovereffect{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#13142ccc, #13142ce7);
+    position: absolute;
+    width: 90%;
+    height: 83%;
+    top: 19px;
+    left: 22px;
+    color: white;
+    padding-top: 80px;
+    opacity: 0;
+}
+
+.hovereffect-big{
+    width: 90%;
+    height: 91%;
+}
+
+.hovereffect div h2{
+    background-color:#D0A904;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+.grid-item:hover .hovereffect{
+    opacity: 1;
+}
+/* Design section Ends here */
+
 /* Achievement section starts here */
 
 .achievement-wrapper{
-    background: linear-gradient(#13142ccc, #13142ce7), url(images/img-4.jpg);
+    background: linear-gradient(#13142cb2, #13142cc0), url(images/img-4.jpg);
     background-position: center;
     background-size: cover;
 
